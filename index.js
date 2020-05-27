@@ -13,7 +13,7 @@ class TildaPage {
      * @param {string} url Tilda page URL
      * @param {{favicon:{string}, placeholders:{Object}, bodyHtml:{string}, pageUrl:{string}}} options Page options
      */
-    constructor(url = '', options = {favicon: '', placeholders: [], bodyHtml: '', pageUrl: ''}) {
+    constructor(url = '', options = {}) {
         this.url = url;
         this.options = options;
     }
